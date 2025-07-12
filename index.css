@@ -1,26 +1,28 @@
 *{
-/*Google font here	*/
 	font-family: 'Luckiest Guy', cursive;
-/*	background-color: black;*/
-/*	background-image: linear-gradient(to right, black , gray);*/
 	text-align: center;
 	color: white;
 }
 
 body{
-	/*background: url("./images/codebackground.jpg");*/
 	background-color: black;
-	/*background-image: linear-gradient(to right, black , gray);*/
 }
+
+.outlined-text {
+    text-shadow:
+	-4px -4px 0 white,
+    4px -4px 0 white,
+    -4px  4px 0 white,
+    4px  4px 0 white,
+    -4px  0px 0 white,
+    4px  0px 0 white,
+    0px -4px 0 white,
+    0px  4px 0 white;
+    }
 .card{
 	align-content: center;
 }
-#mainbg{
-	background: url("./images/coverphotos/networkcloud.jpg");
-	background-size: cover;
-	background-repeat: no-repeat; 
 
-}
 #aboutmebg{
 	background: url("./images/coverphotos/marble-2398956_1280.jpg");
 	background-size: cover;
