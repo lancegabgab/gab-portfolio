@@ -3,6 +3,13 @@
 	text-align: center;
 	color: white;
 }
+
+.intro-title{
+	font-family: 'Space Grotesk', sans-serif;
+	text-align: center;
+	color: white;
+}
+
 .intro-message {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
@@ -23,6 +30,7 @@ body{
     0px -4px 0 white,
     0px  4px 0 white;
     }
+
 .card{
 	align-content: center;
 }
@@ -56,6 +64,7 @@ body{
 	width: 420px;
 	border-radius: 10%;
 }
+
 .fade-image{
 	width: 420px;
 	border-radius: 10%;
