@@ -24,14 +24,10 @@ body{
 
 .outlined-text {
     text-shadow:
-	-4px -4px 0 white,
-    4px -4px 0 white,
-    -4px  4px 0 white,
-    4px  4px 0 white,
-    -4px  0px 0 white,
-    4px  0px 0 white,
-    0px -4px 0 white,
-    0px  4px 0 white;
+	-2px -2px 0 white,
+     2px -2px 0 white,
+    -2px  2px 0 white,
+     2px  2px 0 white;
 }
 
 .footer-text {
