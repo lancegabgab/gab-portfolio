@@ -29,7 +29,11 @@ body{
     4px  0px 0 white,
     0px -4px 0 white,
     0px  4px 0 white;
-    }
+}
+
+.footer-text {
+  font-family: 'Poppins', sans-serif;
+}
 
 .card{
 	align-content: center;
