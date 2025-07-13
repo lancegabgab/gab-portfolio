@@ -17,6 +17,9 @@
 
 body{
 	background-color: black;
+	background: url("./images/matrix-code.gif");
+	background-size: cover;
+	background-repeat: no-repeat; 
 }
 
 .outlined-text {
