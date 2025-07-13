@@ -1,4 +1,10 @@
 *{
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.capitalized-text {
 	font-family: 'Luckiest Guy', cursive;
 	text-align: center;
 	color: white;
