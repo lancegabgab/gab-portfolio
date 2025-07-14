@@ -28,10 +28,10 @@
     <div class="collapse navbar-collapse justify-content-center" id="mainNav">
       <ul class="navbar-nav gap-4">
         <li class="nav-item">
-          <a class="nav-link text-light capitalized-text" href="./aboutme.html">About</a>
+          <a class="nav-link text-light capitalized-text" href="#me">About</a>
         </li>
 		    <li class="nav-item">
-          <a class="nav-link text-light capitalized-text" href="./projects.html">Projects</a>
+          <a class="nav-link text-light capitalized-text" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light capitalized-text" href="#contact">Contact</a>
@@ -44,7 +44,7 @@
   </div>
 </nav>
 
-<div class="container">				
+<div id="me" class="container m-5">				
 	<div class="row align-items-center gy-3">
 		<div class="col-12 col-md-5">
 			<img src="./images/1.jpg" class="me img-fluid my-3">
@@ -56,10 +56,54 @@
 			<h1 class="mb-5 outlined-text text-black intro-title fw-bold" id="animated-text">Full Stack Developer</h1>
 			<p class="text-white intro-message">I am a Full Stack Developer with a passion for creating dynamic web applications. I have experience in both front-end and back-end development, and I am always eager to learn new technologies and improve my skills.</p>
 				<div>
-					<a href="./projects.html" class=" border-light border-3 btn btn-success text-black mt-5 py-2 capitalized-text">View my Projects</a>
+					<a href="#projects" class=" border-light border-3 btn btn-success text-black mt-5 py-2 capitalized-text">View my Projects</a>
 				</div>
 		</div>
 	</div>
+</div>
+
+<div id="projects" class="text-center m-5">
+  <div class="container">
+    <h1 class="outlined-text text-black intro-title">PERSONAL PROJECTS</h1>
+    <hr>
+    <div class="row gy-3">
+
+      <div class="col-md-4">
+        <div class="card border border-5 bg-black project-card">
+          <h5 class="card-title text-white">Capstone 1: Online Portfolio</h5>
+          <img src="./images/projectphotos/portfolio.png" class="card-img-top p-2" alt="...">
+          <div class="card-body">
+          <p class="card-text text-white">Created a Static Website that showcases my skills as a developer using HTML5, CSS3, Bootstrap5, and JQuery</p>
+          <p class="card-text text-white">Hosted on GitHub</p>
+          <a href="./index.html" class="border-light border-2 btn btn-success text-black capitalized-text">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card border border-5 bg-black project-card">
+          <h5 class="card-title text-white">Capstone 2: Ecommerce API</h5>
+          <img src="./images/projectphotos/Capstone2.jpg" class="card-img-top p-2" alt="...">
+          <div class="card-body">
+          <p class="card-text text-white">Created an API using Node.js, Express.js with MongoDB as database, Deployed to Render.</p>
+          <p class="card-text text-white">-Used as server in my Capstone 3</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card border border-5 bg-black project-card">
+          <h5 class="card-title text-white">Capstone 3: Ecommerce App</h5>
+          <img src="./images/projectphotos/PetParadise.JPG" class="card-img-top p-2" alt="...">
+          <div class="card-body">
+          <p class="card-text text-white"> Created a Dynamic Website using MERN Tech Stack: MongoDB, Express.js, React.js, Node.js -Hosted on Vercel</p>
+          <a href="https://b335-cruz-capstone3.vercel.app/" target="blank" class="border-light border-2 btn btn-success text-black capitalized-text">View Project</a>
+          </div>
+        </div>
+      </div>
+
+    </div> 
+  </div>
 </div>
 
 <div id="contact" class="py-5 bg-black text-light">
