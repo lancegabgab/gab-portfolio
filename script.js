@@ -19,7 +19,7 @@ $(function () {
       ? currentText.substring(0, index--)
       : currentText.substring(0, index++);
 
-    $('#animated-text').text(displayed || '\u00A0');
+    $('#animated-text').html((displayed || '&nbsp;') + '<span class="cursor">|</span>');
 
     if (!isDeleting && index === currentText.length + 1) {
       isDeleting = true;
@@ -35,19 +35,17 @@ $(function () {
 
   typeEffect();
 });
+
 $(document).ready(function () {
-    // Mouseenter event
     $(".card").mouseenter(function () {
         $(this).addClass("glow");
     });
 
-    // Mouseleave event
     $(".card").mouseleave(function () {
         $(this).removeClass("glow");
     });
 });
 
-//Index.html intro pics animation
 $(document).ready(function() {
     var images = $('.fade-image');
     var currentIndex = 0;
@@ -61,5 +59,5 @@ $(document).ready(function() {
       });
     }
 
-    fadeInOut(); // Start the initial fade in/out
+  fadeInOut(); 
 });

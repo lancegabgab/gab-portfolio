@@ -36,6 +36,17 @@ body{
      2px  2px 0 white;
 }
 
+.cursor {
+	display: inline-block;
+	animation: blink 0.8s infinite;
+	color: black;
+}
+
+@keyframes blink {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0; }
+}
+
 .footer-text {
   font-family: 'Poppins', sans-serif;
 }
