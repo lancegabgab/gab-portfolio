@@ -32,6 +32,10 @@ body{
 	-2px -2px 0 white;
 }
 
+.justified-text {
+  text-align: justify;
+}
+
 .cursor {
 	display: inline-block;
 	animation: blink 0.8s infinite;
