@@ -5,8 +5,6 @@
 
 .capitalized-text {
 	font-family: 'Luckiest Guy', cursive;
-	text-align: center;
-	color: white;
 }
 
 .intro-title{
@@ -15,7 +13,6 @@
 
 .intro-message {
 	font-family: 'Poppins', sans-serif;
-	font-weight: 300;
 }
 
 body{
@@ -52,8 +49,6 @@ body{
 }
 
 .fade-image{
-	height: 500px;
-	width: auto;
 	border-radius: 10%;
 	display: none;
 }
